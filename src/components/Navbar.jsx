@@ -10,18 +10,20 @@ function Navbar() {
     fontFamily: 'Poppins, sans-serif',
     fontWeight: 700,
     color: hoveredLink === name ? '#ffffff' : '#0066ff',
-    backgroundColor: hoveredLink === name ? '#0066ff' : 'transparent',
+    backgroundColor: hoveredLink === name ? '#FF66CC' : 'transparent',
+    fontSize: 18,
     borderRadius: '20px',
-    padding: '10px 20px',
+    padding: '20px 20px',
     transition: 'all 0.3s ease',
     cursor: 'pointer',
+    textShadow: '2px 2px 4px rgba(0,0,0,0.2)',
   })
 
   return (
     <div
       style={{
         backgroundColor: '#fff',
-        minHeight: '10vh',
+        maxHeight: '10vh',
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'space-between',
@@ -32,8 +34,11 @@ function Navbar() {
         <img
           src={mainLogo}
           alt="Home link"
-          height={80}
-          style={{ objectFit: 'contain' }}
+          height={200}
+          style={{
+            objectFit: 'contain',
+            marginLeft: '-20px',
+          }}
         />
       </Link>
 
