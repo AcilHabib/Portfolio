@@ -77,7 +77,7 @@ function Navbar() {
             onMouseEnter={() => setHoveredLink('Projects')}
             onMouseLeave={() => setHoveredLink('')}
           >
-            Projects
+            Gallery
           </Link>
         </li>
         <li>
