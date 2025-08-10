@@ -31,6 +31,7 @@ function HomePage() {
             paddingTop: '100px',
             alignSelf: 'flex-end',
             cursor: 'pointer',
+            zIndex: -3,
           }}
           animate={{ x: -100, y: 100, scale: 1, rotate: rotate ? 360 : 0 }}
           initial={{ scale: 0 }}

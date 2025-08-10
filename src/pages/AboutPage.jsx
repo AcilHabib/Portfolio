@@ -9,7 +9,6 @@ import MovingBoxes from '../components/MovingBoxes'
 function AboutPage() {
   return (
     <>
-      <MovingBoxes />
       <div style={{ display: 'flex', flexDirection: 'column' }}>
         <AboutBox
           id={1}

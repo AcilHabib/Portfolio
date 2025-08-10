@@ -1,7 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 
-function MovingBox({ color, top, right, left, bottom }) {
+function MovingBox({ color, top, right, left, bottom, size = 200 }) {
   return (
     <motion.div
       style={{

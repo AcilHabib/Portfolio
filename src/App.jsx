@@ -1,3 +1,4 @@
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
 import MovingBoxes from './components/MovingBoxes'
 import Navbar from './components/Navbar'
@@ -8,11 +9,12 @@ function App() {
   return (
     <>
       <AboutProvider>
-        <Navbar />
-        {/* <HomePage /> */}
         <MovingBoxes />
-
-        <AboutPage />
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="about" element={<AboutPage />} />
+        </Routes>
       </AboutProvider>
     </>
   )

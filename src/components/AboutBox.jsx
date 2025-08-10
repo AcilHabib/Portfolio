@@ -3,6 +3,7 @@ import React, { useContext, useState } from 'react'
 import AboutMe from '../assets/images/cooltext488212725616103.png'
 import HoveredContent from './HoveredContent'
 import { aboutContext } from '../contexts/AboutContext'
+import { motion } from 'framer-motion'
 
 function AboutBox({
   id,
@@ -17,7 +18,7 @@ function AboutBox({
   const { setId } = useContext(aboutContext)
 
   return (
-    <div
+    <motion.div
       style={{
         width: !isHovered ? '40vh' : '75vh',
         height: !isHovered ? '40vh' : '75vh',
@@ -41,6 +42,7 @@ function AboutBox({
       }}
       onMouseEnter={() => [setIsHovered(true), setId(id)]}
       onMouseLeave={() => setIsHovered(false)}
+      animate={id == 1 || id == 3 ? { x: 200, y: -30 } : { x: -200 }}
     >
       {!isHovered ? (
         <img
@@ -53,7 +55,7 @@ function AboutBox({
       ) : (
         <HoveredContent />
       )}
-    </div>
+    </motion.div>
   )
 }
 

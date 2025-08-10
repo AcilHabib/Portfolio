@@ -1,13 +1,43 @@
-import React from 'react'
+import React, { useMemo } from 'react'
 import MovingBox from './MovingBox'
 
+const randomPercentage = (min = 0, max = 85) => {
+  return Math.round(Math.random() * (max - min) + min) + '%'
+}
+
 function MovingBoxes() {
+  const boxes = useMemo(
+    () => [
+      { color: '#0066ff' },
+      { color: '#FF66CC' },
+      { color: '#0066ff' },
+      { color: '#FF66CC' },
+      { color: '#0066ff' },
+    ],
+    []
+  )
+
+  const movingBoxes = useMemo(
+    () =>
+      boxes.map((box) => ({
+        ...box,
+        top: randomPercentage(20, 90),
+        left: randomPercentage(5, 80),
+        size: Math.round(Math.random() * 120) + 80,
+      })),
+    [boxes]
+  )
   return (
     <>
-      <MovingBox color="#0066ff" top={130} left={680} />
-      <MovingBox color="#FF66CC" top={180} right={150} />
-      <MovingBox color="#FF66CC" bottom={200} left={140} />
-      <MovingBox color="#0066ff" bottom={250} right={880} />
+      {movingBoxes.map((box, index) => (
+        <MovingBox
+          key={index}
+          top={box.top}
+          left={box.left}
+          color={box.color}
+          size={box.size}
+        />
+      ))}
     </>
   )
 }
