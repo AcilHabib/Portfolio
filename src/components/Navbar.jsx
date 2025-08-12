@@ -7,11 +7,11 @@ function Navbar() {
 
   const getLinkStyle = (name) => ({
     textDecoration: 'none',
-    fontFamily: 'Poppins, sans-serif',
+    fontFamily: 'chewy',
     fontWeight: 700,
     color: hoveredLink === name ? '#ffffff' : '#0066ff',
     backgroundColor: hoveredLink === name ? '#FF66CC' : 'transparent',
-    fontSize: 18,
+    fontSize: 35,
     borderRadius: '20px',
     padding: '20px 20px',
     transition: 'all 0.3s ease',
@@ -72,9 +72,9 @@ function Navbar() {
         </li>
         <li>
           <Link
-            to="/projects"
-            style={getLinkStyle('Projects')}
-            onMouseEnter={() => setHoveredLink('Projects')}
+            to="/gallery"
+            style={getLinkStyle('Gallery')}
+            onMouseEnter={() => setHoveredLink('Gallery')}
             onMouseLeave={() => setHoveredLink('')}
           >
             Gallery

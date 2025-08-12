@@ -5,6 +5,7 @@ import Navbar from './components/Navbar'
 import AboutProvider from './contexts/AboutContext'
 import AboutPage from './pages/AboutPage'
 import HomePage from './pages/HomePage'
+import GalleryPage from './pages/GalleryPage'
 function App() {
   return (
     <>
@@ -14,6 +15,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="about" element={<AboutPage />} />
+          <Route path="gallery" element={<GalleryPage />} />
         </Routes>
       </AboutProvider>
     </>
