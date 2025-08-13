@@ -3,12 +3,9 @@ import { useState, useContext } from 'react'
 import { aboutContext } from '../contexts/AboutContext'
 import { motion } from 'framer-motion'
 import FieldAnimation from './WebAnimation'
-import WebAnim from '../assets/lottieFiles/Computer.json'
-import MobileAnim from '../assets/lottieFiles/Phone Wifi.json'
 
 function Field({
   id,
-
   logo,
   colorNum,
   marginRight,
@@ -46,7 +43,7 @@ function Field({
       onMouseLeave={() => setIsHovered(false)}
       animate={id == 1 ? { x: 300 } : { x: -300 }}
     >
-      <FieldAnimation logo={logo} />5
+      <FieldAnimation logo={logo} />
     </motion.div>
   )
 }
