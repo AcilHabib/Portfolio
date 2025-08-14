@@ -7,6 +7,7 @@ import AboutPage from './pages/AboutPage'
 import HomePage from './pages/HomePage'
 import GalleryPage from './pages/GalleryPage'
 import FullStackProjects from './pages/FullStackProjects'
+import ExperiancePage from './pages/ExperiancePage'
 import MobileProjects from './pages/MobileProjects'
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="gallery" element={<GalleryPage />} />
           <Route path="FullStackProjects" element={<FullStackProjects />} />
           <Route path="MobileProjects" element={<MobileProjects />} />
+          <Route path="experience" element={<ExperiancePage />} />
         </Routes>
       </AboutProvider>
     </>
