@@ -28,7 +28,7 @@ function ExperianceComponent() {
       {' '}
       <h2
         style={{
-          color: '#ff69b4',
+          color: '#0066ff',
           marginTop: '30px',
           marginBottom: '30px',
           fontFamily: 'Poppins',
@@ -55,6 +55,7 @@ function ExperianceComponent() {
             fontSize: 25,
             fontWeight: 700,
             textDecoration: 'underline',
+            color: '#66b2ff',
           }}
         >
           Nelia Intelligent Systems:
@@ -65,6 +66,7 @@ function ExperianceComponent() {
           style={{
             fontFamily: 'Poppins',
             fontSize: 20,
+            color: 'white',
           }}
         >
           <strong> EnviroTrack:</strong> an IoT application that monitors and
@@ -87,6 +89,7 @@ function ExperianceComponent() {
             fontSize: 25,
             fontWeight: 700,
             textDecoration: 'underline',
+            color: '#66b2ff',
           }}
         >
           PIASSA DZ:
@@ -97,6 +100,7 @@ function ExperianceComponent() {
           style={{
             fontFamily: 'Poppins',
             fontSize: 20,
+            color: 'white ',
           }}
         >
           <strong> Piassa App:</strong> mobile app for buying car parts online,
@@ -108,6 +112,7 @@ function ExperianceComponent() {
           style={{
             fontFamily: 'Poppins',
             fontSize: 20,
+            color: 'white',
           }}
         >
           <strong>Simon Web:</strong> it is a platform for Piassa partners to
@@ -117,6 +122,7 @@ function ExperianceComponent() {
           style={{
             fontFamily: 'Poppins',
             fontSize: 20,
+            color: 'white',
           }}
         >
           <strong>Piassa Expert:</strong> it is a dedicated website for
@@ -139,6 +145,7 @@ function ExperianceComponent() {
             fontSize: 25,
             fontWeight: 700,
             textDecoration: 'underline',
+            color: '#66b2ff',
           }}
         >
           Winston Red :
@@ -149,6 +156,7 @@ function ExperianceComponent() {
           style={{
             fontFamily: 'Poppins',
             fontSize: 20,
+            color: 'white',
           }}
         >
           <strong>ShopsCraft:</strong> it is a free, modern e-commerce platform

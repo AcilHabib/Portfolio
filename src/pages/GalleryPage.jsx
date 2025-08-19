@@ -9,10 +9,12 @@ function GalleryPage() {
     <div
       style={{
         display: 'flex',
+        backgroundColor: '#1e3a5c',
         flexDirection: 'row',
         justifyContent: 'space-between',
         alignItems: 'center',
         height: '90vh',
+        overflow: 'hidden',
       }}
     >
       <Link to={'/FullStackProjects'}>

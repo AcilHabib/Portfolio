@@ -7,13 +7,13 @@ function Navbar() {
 
   const getLinkStyle = (name) => ({
     textDecoration: 'none',
-    fontFamily: 'chewy',
-    fontWeight: 700,
+    fontFamily: 'poppins',
+    fontWeight: 500,
     color: hoveredLink === name ? '#ffffff' : '#0066ff',
     backgroundColor: hoveredLink === name ? '#FF66CC' : 'transparent',
-    fontSize: 35,
+    fontSize: 30,
     borderRadius: '20px',
-    padding: '20px 20px',
+    padding: '5px 10px',
     transition: 'all 0.3s ease',
     cursor: 'pointer',
     textShadow: '2px 2px 4px rgba(0,0,0,0.2)',
@@ -22,7 +22,7 @@ function Navbar() {
   return (
     <div
       style={{
-        backgroundColor: '#fff',
+        backgroundColor: '#162c44ff',
         maxHeight: '10vh',
         display: 'flex',
         alignItems: 'center',
@@ -46,7 +46,7 @@ function Navbar() {
         style={{
           listStyle: 'none',
           display: 'flex',
-          gap: '40px',
+          gap: '100px',
           margin: 0,
         }}
       >

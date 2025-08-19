@@ -51,6 +51,7 @@ function MobileProjects() {
         height: '100vh',
         display: 'flex',
         justifyContent: 'center',
+        backgroundColor: '#1e3a5c',
         alignItems: 'center',
       }}
     >

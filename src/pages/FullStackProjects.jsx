@@ -55,6 +55,8 @@ function FullStackProjects() {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
+        overflow: 'clip',
+        backgroundColor: '#1e3a5c',
       }}
     >
       <div

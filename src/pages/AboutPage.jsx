@@ -4,12 +4,16 @@ import AboutMe from '../assets/images/cooltext488212725616103.png'
 import AboutMyWork from '../assets/images/cooltext488212834955632.png'
 import ContactMe from '../assets/images/cooltext488212887865807.png'
 import AboutBox from '../components/AboutBox'
-import MovingBoxes from '../components/MovingBoxes'
-
 function AboutPage() {
   return (
     <>
-      <div style={{ display: 'flex', flexDirection: 'column' }}>
+      <div
+        style={{
+          display: 'flex',
+          flexDirection: 'column',
+          backgroundColor: '#1e3a5c',
+        }}
+      >
         <AboutBox
           id={1}
           frontImage={AboutMe}

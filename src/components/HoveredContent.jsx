@@ -46,9 +46,10 @@ function HoveredContent({}) {
         <li>
           <p
             style={{
-              fontFamily: 'Chewy ',
+              fontFamily: 'Poppins',
               fontSize: 50,
-              fontWeight: 150,
+              color: 'white',
+              fontWeight: 200,
               fontStyle: 'normal',
             }}
           >
@@ -58,9 +59,10 @@ function HoveredContent({}) {
         <li>
           <p
             style={{
-              fontFamily: 'Chewy',
+              fontFamily: 'Poppins',
               fontSize: 50,
-              fontWeight: 'thin',
+              color: 'white',
+              fontWeight: 200,
             }}
           >
             {second}
@@ -69,9 +71,10 @@ function HoveredContent({}) {
         <li>
           <p
             style={{
-              fontFamily: 'Chewy ',
+              fontFamily: 'Poppins',
               fontSize: 50,
-              fontWeight: 'thin',
+              color: 'white',
+              fontWeight: 200,
             }}
           >
             {third}
@@ -80,9 +83,10 @@ function HoveredContent({}) {
         <li>
           <p
             style={{
-              fontFamily: 'Chewy ',
+              fontFamily: 'Poppins',
               fontSize: 50,
-              fontWeight: 'thin',
+              color: 'white',
+              fontWeight: 200,
             }}
           >
             {fourth}

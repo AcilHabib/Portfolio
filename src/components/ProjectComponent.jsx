@@ -13,7 +13,7 @@ function ProjectComponent({ id, projectLogo, projectName, to }) {
           borderImage:
             id % 2 === 0
               ? 'linear-gradient(to bottom right, #0066ff 0%, rgba(255,105,180,0) 100%) 1'
-              : 'linear-gradient(to bottom right, #ff69b4 0%, rgba(255,105,180,0) 100%) 1',
+              : 'linear-gradient(to bottom right, #66b2ff 0%, rgba(255,105,180,0) 100%) 1',
           backgroundColor: 'rgba(216, 215, 215, 0.16)',
           backdropFilter: 'blur(10px)',
           WebkitBackdropFilter: 'blur(10px)',
@@ -32,10 +32,11 @@ function ProjectComponent({ id, projectLogo, projectName, to }) {
         <img src={projectLogo} width="40%" style={{ marginTop: '30px' }} />
         <p
           style={{
-            fontFamily: 'Chewy ',
+            fontFamily: 'Poppins',
             fontSize: 40,
-            fontWeight: 150,
+            fontWeight: 200,
             fontStyle: 'normal',
+            color: 'white',
           }}
         >
           {projectName}

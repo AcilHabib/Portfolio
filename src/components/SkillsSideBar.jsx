@@ -9,7 +9,7 @@ function SkillsSideBar() {
         height: '85vh',
         border: '2px solid transparent',
         borderImage:
-          'linear-gradient(to bottom right, #ff69b4 0%, rgba(255,105,180,0) 100%) 1',
+          'linear-gradient(to bottom right, #66b2ff 0%, rgba(255,105,180,0) 100%) 1',
         backgroundColor: 'rgba(216, 215, 215, 0.16)',
         backdropFilter: 'blur(10px)',
         WebkitBackdropFilter: 'blur(10px)',
@@ -38,28 +38,44 @@ function SkillsSideBar() {
 
       <ul style={{ listStyle: 'none', padding: 0 }}>
         <li style={{ margin: '10px 0' }}>
-          <p style={{ fontSize: 20, fontFamily: 'Poppins' }}>JavaScript</p>
+          <p style={{ fontSize: 20, fontFamily: 'Poppins', color: 'white' }}>
+            JavaScript
+          </p>
         </li>
         <li style={{ margin: '10px 0' }}>
-          <p style={{ fontSize: 20, fontFamily: 'Poppins' }}>React</p>
+          <p style={{ fontSize: 20, fontFamily: 'Poppins', color: 'white' }}>
+            React
+          </p>
         </li>
         <li style={{ margin: '10px 0' }}>
-          <p style={{ fontSize: 20, fontFamily: 'Poppins' }}>Node.js</p>
+          <p style={{ fontSize: 20, fontFamily: 'Poppins', color: 'white' }}>
+            Node.js
+          </p>
         </li>
         <li style={{ margin: '10px 0' }}>
-          <p style={{ fontSize: 20, fontFamily: 'Poppins' }}>CSS</p>
+          <p style={{ fontSize: 20, fontFamily: 'Poppins', color: 'white' }}>
+            CSS
+          </p>
         </li>
         <li style={{ margin: '10px 0' }}>
-          <p style={{ fontSize: 20, fontFamily: 'Poppins' }}>HTML</p>
+          <p style={{ fontSize: 20, fontFamily: 'Poppins', color: 'white' }}>
+            HTML
+          </p>
         </li>
         <li style={{ margin: '10px 0' }}>
-          <p style={{ fontSize: 20, fontFamily: 'Poppins' }}>Next.js</p>
+          <p style={{ fontSize: 20, fontFamily: 'Poppins', color: 'white' }}>
+            Next.js
+          </p>
         </li>
         <li style={{ margin: '10px 0' }}>
-          <p style={{ fontSize: 20, fontFamily: 'Poppins' }}>TailWind</p>
+          <p style={{ fontSize: 20, fontFamily: 'Poppins', color: 'white' }}>
+            TailWind
+          </p>
         </li>
         <li style={{ margin: '10px 0' }}>
-          <p style={{ fontSize: 20, fontFamily: 'Poppins' }}>ReactNative</p>
+          <p style={{ fontSize: 20, fontFamily: 'Poppins', color: 'white' }}>
+            ReactNative
+          </p>
         </li>
       </ul>
     </motion.div>
