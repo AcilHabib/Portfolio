@@ -16,7 +16,7 @@ function AboutPage() {
       >
         <AboutBox
           id={1}
-          frontImage={AboutMe}
+          frontText={'About Me  '}
           colorNum={1}
           marginRight={0}
           marginLeft={300}
@@ -25,7 +25,7 @@ function AboutPage() {
         <div style={{ alignSelf: 'flex-end' }}>
           <AboutBox
             id={2}
-            frontImage={AboutMyWork}
+            frontText={'About My Work'}
             colorNum={2}
             marginRight={200}
             marginLeft={0}
@@ -35,7 +35,7 @@ function AboutPage() {
         </div>
         <AboutBox
           id={3}
-          frontImage={ContactMe}
+          frontText={'Contact Me'}
           colorNum={1}
           marginRight={0}
           marginLeft={280}

@@ -21,7 +21,7 @@ export default function HomePage() {
     >
       <VantaNet
         color={0x66ccff}
-        backgroundColor={0x263148}
+        backgroundColor={0x000}
         points={15}
         maxDistance={22}
         spacing={20}

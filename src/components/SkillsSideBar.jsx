@@ -77,6 +77,16 @@ function SkillsSideBar() {
             ReactNative
           </p>
         </li>
+        <li style={{ margin: '10px 0' }}>
+          <p style={{ fontSize: 20, fontFamily: 'Poppins', color: 'white' }}>
+            Git
+          </p>
+        </li>
+        <li style={{ margin: '10px 0' }}>
+          <p style={{ fontSize: 20, fontFamily: 'Poppins', color: 'white' }}>
+            GitHub
+          </p>
+        </li>
       </ul>
     </motion.div>
   )

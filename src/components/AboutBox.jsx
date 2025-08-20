@@ -7,7 +7,7 @@ import { motion } from 'framer-motion'
 
 function AboutBox({
   id,
-  frontImage,
+  frontText,
   colorNum,
   marginRight,
   marginLeft,
@@ -45,13 +45,17 @@ function AboutBox({
       animate={id == 1 || id == 3 ? { x: 200, y: -30 } : { x: -200 }}
     >
       {!isHovered ? (
-        <img
-          src={frontImage}
+        <h1
           style={{
-            width: '87%',
-            height: '30%',
+            color: id == 1 || id == 3 ? '#0066ff' : '#66b2ff',
+            fontFamily: 'Poppins',
+            fontSize: 50,
+            textAlign: 'center',
+            textShadow: '2px 2px 4px rgba(0,0,0,0.2)',
           }}
-        />
+        >
+          {frontText}
+        </h1>
       ) : (
         <HoveredContent />
       )}

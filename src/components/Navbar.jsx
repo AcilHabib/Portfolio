@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import mainLogo from '../assets/images/HomeLogo.png'
+import mainLogo from '../assets/images/habibLogo.png'
 import { Link } from 'react-router-dom'
 
 function Navbar() {
@@ -9,8 +9,8 @@ function Navbar() {
     textDecoration: 'none',
     fontFamily: 'poppins',
     fontWeight: 500,
-    color: hoveredLink === name ? '#ffffff' : '#0066ff',
-    backgroundColor: hoveredLink === name ? '#FF66CC' : 'transparent',
+    color: hoveredLink === name ? '#ffffff' : '#66b2ff',
+    backgroundColor: hoveredLink === name ? '#66b2ff' : 'transparent',
     fontSize: 30,
     borderRadius: '20px',
     padding: '5px 10px',
