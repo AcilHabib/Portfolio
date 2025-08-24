@@ -19,7 +19,6 @@ function App() {
           <Route path="gallery" element={<GalleryPage />} />
           <Route path="FullStackProjects" element={<FullStackProjects />} />
           <Route path="MobileProjects" element={<MobileProjects />} />
-          <Route path="experience" element={<ExperiancePage />} />
         </Routes>
       </AboutProvider>
     </>
