@@ -22,17 +22,25 @@ function GalleryPage() {
     >
       <VantaNet
         color={0x66ccff}
-        backgroundColor={0x000}
+        backgroundColor={0x1e3a5c}
         points={15}
         maxDistance={22}
         spacing={20}
       />
 
-      <Link to={'/FullStackProjects'}>
-        <Field colorNum={1} id={1} logo={desktop} />
+      <Link
+        to={'/FullStackProjects'}
+        style={{ textDecoration: 'none', color: 'inherit' }}
+        data-discover="true"
+      >
+        <Field colorNum={1} id={1} logo={desktop} message={'FullStack'} />
       </Link>
-      <Link to={'/MobileProjects'}>
-        <Field colornum={2} id={2} logo={mobile} />
+      <Link
+        to={'/MobileProjects'}
+        style={{ textDecoration: 'none', color: 'inherit' }}
+        data-discover="true"
+      >
+        <Field colornum={2} id={2} logo={mobile} message={'Mobile'} />
       </Link>
     </div>
   )

@@ -3,11 +3,13 @@ import { useState, useContext } from 'react'
 import { aboutContext } from '../contexts/AboutContext'
 import { motion } from 'framer-motion'
 import FieldAnimation from './WebAnimation'
+import { Polygon } from 'react-leaflet'
 
 function Field({
   id,
   logo,
   colorNum,
+  message,
   marginRight,
   marginLeft,
   marginTop,
@@ -18,13 +20,17 @@ function Field({
   return (
     <motion.div
       style={{
-        width: !isHovered ? '50vh' : '60vh',
-        height: !isHovered ? '50vh' : '60vh',
-        border: '2px solid transparent',
+        width: '50vw',
+        height: '90vh',
+        clipPath:
+          colorNum == 1
+            ? 'polygon(0% 0%, 100% 0%, 70% 100%, 0% 100%)'
+            : 'polygon(30% 0%, 100% 0%, 100% 100%, 0% 100%)',
         borderImage:
           colorNum == 1
-            ? 'linear-gradient(to bottom right, #0066ff 0%, rgba(255,105,180,0) 100%) 1'
-            : 'linear-gradient(to bottom right, #66b2ff 0%, rgba(255,105,180,0) 100%) 1',
+            ? 'linear-gradient(to bottom right, #0c6ff9ff 0%, rgba(255,105,180,0) 100%) 1'
+            : 'linear-gradient(to bottom right, #66b2ffff 0%, rgba(255,105,180,0) 100%) 1',
+        border: '2px solid  ',
         backgroundColor: 'rgba(216, 215, 215, 0.16)',
         backdropFilter: 'blur(10px)',
         WebkitBackdropFilter: 'blur(10px)',
@@ -33,7 +39,7 @@ function Field({
         alignItems: 'center',
         marginRight: marginRight,
         marginLeft: marginLeft,
-        marginTop: marginTop,
+        marginTop: '21%',
         marginBottom: marginBottom,
         cursor: 'pointer',
         flexDirection: 'column',
@@ -41,9 +47,17 @@ function Field({
       }}
       onMouseEnter={() => [setIsHovered(true), setId(id)]}
       onMouseLeave={() => setIsHovered(false)}
-      animate={id == 1 ? { x: 300 } : { x: -300 }}
+      animate={id == 1 ? { x: 130 } : { x: -130 }}
     >
       <FieldAnimation logo={logo} />
+      <h1
+        style={{
+          fontFamily: 'Poppins',
+          color: colorNum == 1 ? '#086cf7ff' : '#66b2ffff',
+        }}
+      >
+        {message}
+      </h1>
     </motion.div>
   )
 }

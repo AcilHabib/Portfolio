@@ -3,7 +3,7 @@ import Lottie from 'lottie-react'
 
 function FieldAnimation({ logo }) {
   return (
-    <div style={{ width: '50%' }}>
+    <div style={{ width: '35%' }}>
       <Lottie animationData={logo} loop={true} />
     </div>
   )

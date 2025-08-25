@@ -67,7 +67,7 @@ export default function HomePage() {
     <div style={containerStyle}>
       <VantaNet
         color={0x66ccff}
-        backgroundColor={0x000}
+        backgroundColor={0x1e3a5c}
         points={15}
         maxDistance={22}
         spacing={20}
@@ -87,7 +87,7 @@ export default function HomePage() {
         style={heroImageStyle}
         animate={{
           x: isSmall ? 200 : -100,
-          y: isSmall ? -450 : -150,
+          y: isSmall ? -250 : -50,
           scale: 1,
           rotate: rotate ? 360 : 0,
         }}
