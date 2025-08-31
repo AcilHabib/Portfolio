@@ -86,15 +86,15 @@ function Navbar() {
           </Link>
         </li>
         <li>
-          <Link
-            to={myResume}
+          <a
+            href={myResume}
             style={getLinkStyle('Experience')}
             onMouseEnter={() => setHoveredLink('Experience')}
             onMouseLeave={() => setHoveredLink('')}
             download={'Resumé.pdf'}
           >
             Resumé
-          </Link>
+          </a>
         </li>
       </ul>
     </div>

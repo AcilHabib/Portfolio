@@ -30,14 +30,14 @@ function GalleryPage() {
 
       <Link
         to={'/FullStackProjects'}
-        style={{ textDecoration: 'none', color: 'inherit' }}
+        style={{ textDecoration: 'none', color: 'inherit', marginTop: '10vh' }}
         data-discover="true"
       >
         <Field colorNum={1} id={1} logo={desktop} message={'FullStack'} />
       </Link>
       <Link
         to={'/MobileProjects'}
-        style={{ textDecoration: 'none', color: 'inherit' }}
+        style={{ textDecoration: 'none', color: 'inherit', marginTop: '10vh' }}
         data-discover="true"
       >
         <Field colornum={2} id={2} logo={mobile} message={'Mobile'} />
