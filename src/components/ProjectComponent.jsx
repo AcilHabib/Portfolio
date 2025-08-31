@@ -7,13 +7,10 @@ function ProjectComponent({ id, projectLogo, projectName, to }) {
     <Link to={to} style={{ textDecoration: 'none', color: 'inherit' }}>
       <motion.div
         style={{
-          width: '30vh',
-          height: '30vh',
+          width: '40vh',
+          height: '40vh',
           border: '2px solid transparent',
-          borderImage:
-            id % 2 === 0
-              ? 'linear-gradient(to bottom right, #0066ff 0%, rgba(255,105,180,0) 100%) 1'
-              : 'linear-gradient(to bottom right, #66b2ff 0%, rgba(255,105,180,0) 100%) 1',
+
           backgroundColor: 'rgba(216, 215, 215, 0.16)',
           backdropFilter: 'blur(10px)',
           WebkitBackdropFilter: 'blur(10px)',

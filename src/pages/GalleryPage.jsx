@@ -16,7 +16,7 @@ function GalleryPage() {
         justifyContent: 'space-between',
         alignItems: 'center',
         height: '90vh',
-        opacity: 0.85,
+        backgroundColor: 'rgba(30, 58, 92, 0.65)',
         overflow: 'hidden',
       }}
     >

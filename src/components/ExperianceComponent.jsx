@@ -11,8 +11,8 @@ function ExperianceComponent() {
         width: '70%',
         height: '85vh',
         border: '2px solid transparent',
-        borderImage:
-          'linear-gradient(to bottom right, #0066ff 0%, rgba(255,105,180,0) 100%) 1',
+        borderRadius: 10,
+
         backgroundColor: 'rgba(216, 215, 215, 0.16)',
         backdropFilter: 'blur(10px)',
         WebkitBackdropFilter: 'blur(10px)',

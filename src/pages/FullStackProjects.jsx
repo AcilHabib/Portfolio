@@ -6,7 +6,7 @@ import simonWeb from '../assets/images/icon.png'
 import badaro from '../assets/images/shopping.png'
 import meraco from '../assets/images/meraco.png'
 import shadow from '../assets/images/shadow.png'
-
+import VantaNet from '../components/VantaNet'
 function FullStackProjects() {
   const projects = [
     {
@@ -56,9 +56,17 @@ function FullStackProjects() {
         justifyContent: 'center',
         alignItems: 'center',
         overflow: 'clip',
-        backgroundColor: '#1e3a5c',
+
+        backgroundColor: 'rgba(30, 58, 92, 0.65)',
       }}
     >
+      <VantaNet
+        color={0x66ccff}
+        backgroundColor={0x1e3a5c}
+        points={15}
+        maxDistance={22}
+        spacing={20}
+      />
       <div
         style={{
           display: 'grid',
@@ -77,7 +85,6 @@ function FullStackProjects() {
             key={index}
             id={project.id}
             projectLogo={project.projectLogo}
-            projectName={project.projectName}
             to={project.to}
           />
         ))}

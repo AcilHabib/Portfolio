@@ -26,11 +26,7 @@ function Field({
           colorNum == 1
             ? 'polygon(0% 0%, 100% 0%, 70% 100%, 0% 100%)'
             : 'polygon(30% 0%, 100% 0%, 100% 100%, 0% 100%)',
-        borderImage:
-          colorNum == 1
-            ? 'linear-gradient(to bottom right, #0c6ff9ff 0%, rgba(255,105,180,0) 100%) 1'
-            : 'linear-gradient(to bottom right, #66b2ffff 0%, rgba(255,105,180,0) 100%) 1',
-        border: '2px solid  ',
+        borderRadius: 10,
         backgroundColor: 'rgba(216, 215, 215, 0.16)',
         backdropFilter: 'blur(10px)',
         WebkitBackdropFilter: 'blur(10px)',

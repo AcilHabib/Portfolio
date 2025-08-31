@@ -7,9 +7,8 @@ function SkillsSideBar() {
       style={{
         width: '40vh',
         height: '85vh',
-        border: '2px solid transparent',
-        borderImage:
-          'linear-gradient(to bottom right, #66b2ff 0%, rgba(255,105,180,0) 100%) 1',
+        border: '1px solid transparent',
+        borderRadius: 10,
         backgroundColor: 'rgba(216, 215, 215, 0.16)',
         backdropFilter: 'blur(10px)',
         WebkitBackdropFilter: 'blur(10px)',

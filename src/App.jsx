@@ -13,13 +13,15 @@ function App() {
     <>
       <AboutProvider>
         <Navbar />
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="about" element={<AboutPage />} />
-          <Route path="gallery" element={<GalleryPage />} />
-          <Route path="FullStackProjects" element={<FullStackProjects />} />
-          <Route path="MobileProjects" element={<MobileProjects />} />
-        </Routes>
+        <div>
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="about" element={<AboutPage />} />
+            <Route path="gallery" element={<GalleryPage />} />
+            <Route path="FullStackProjects" element={<FullStackProjects />} />
+            <Route path="MobileProjects" element={<MobileProjects />} />
+          </Routes>
+        </div>
       </AboutProvider>
     </>
   )

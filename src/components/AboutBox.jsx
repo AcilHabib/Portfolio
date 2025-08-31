@@ -25,7 +25,7 @@ function AboutBox({
         border: '2px solid transparent',
         borderImage:
           colorNum == 1
-            ? 'linear-gradient(to bottom right, #0066ff 0%, rgba(255,105,180,0) 100%) 1'
+            ? 'linear-gradient(to bottom right, #0066ff 0%, rgba(255,105,180,0) 100%) 0.5'
             : 'linear-gradient(to bottom right, #66b2ff 0%, rgba(255,105,180,0) 100%) 1',
         backgroundColor: 'rgba(216, 215, 215, 0.16)',
         backdropFilter: 'blur(10px)',

@@ -3,6 +3,7 @@ import ProjectComponent from '../components/ProjectComponent'
 import simonWeb from '../assets/images/icon.png'
 import delivery from '../assets/images/delivery.png'
 import swiftTalk from '../assets/images/swifttalk.png'
+import VantaNet from '../components/VantaNet'
 
 function MobileProjects() {
   const projects = [
@@ -51,10 +52,17 @@ function MobileProjects() {
         height: '100vh',
         display: 'flex',
         justifyContent: 'center',
-        backgroundColor: '#1e3a5c',
+        backgroundColor: 'rgba(30, 58, 92, 0.65)',
         alignItems: 'center',
       }}
     >
+      <VantaNet
+        color={0x66ccff}
+        backgroundColor={0x1e3a5c}
+        points={15}
+        maxDistance={22}
+        spacing={20}
+      />
       <div
         style={{
           display: 'grid',
