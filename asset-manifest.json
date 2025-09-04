@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.f855e6bc.css",
+    "main.js": "/portfolio/static/js/main.bf0fd502.js",
+    "static/js/453.ad7768ec.chunk.js": "/portfolio/static/js/453.ad7768ec.chunk.js",
+    "static/media/Assil2.png": "/portfolio/static/media/Assil2.c1e4e9f335ced70e5fa3.png",
+    "static/media/habibLogo.png": "/portfolio/static/media/habibLogo.799a67e2523b1988b6ca.png",
+    "static/media/Resumé.pdf": "/portfolio/static/media/Resumé.92face86e5f02aef99d8.pdf",
+    "static/media/shadow.png": "/portfolio/static/media/shadow.8d89feb0e76bab4642bb.png",
+    "static/media/swifttalk.png": "/portfolio/static/media/swifttalk.32ee47ae5636df13cf2a.png",
+    "static/media/shopping.png": "/portfolio/static/media/shopping.0feb97a34e43765929ec.png",
+    "static/media/simonicon.png": "/portfolio/static/media/simonicon.98637390b7695abeed0a.png",
+    "static/media/meraco.png": "/portfolio/static/media/meraco.2bb6d4fdd0d36b9d799a.png",
+    "static/media/icon.png": "/portfolio/static/media/icon.cbff4c2e4d5783bb0d0d.png",
+    "static/media/cooltext488212725616103.png": "/portfolio/static/media/cooltext488212725616103.fb2f81f157b39811fd55.png",
+    "index.html": "/portfolio/index.html",
+    "main.f855e6bc.css.map": "/portfolio/static/css/main.f855e6bc.css.map",
+    "main.bf0fd502.js.map": "/portfolio/static/js/main.bf0fd502.js.map",
+    "453.ad7768ec.chunk.js.map": "/portfolio/static/js/453.ad7768ec.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.bf0fd502.js"
+  ]
+}
